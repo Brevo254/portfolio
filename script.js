@@ -1,2 +1,6 @@
-// Footer year, kept current without needing a manual edit each year.
-document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById("year").textContent = new Date().getFullYear();
+
+function showPlaceholder(event, item) {
+  event.preventDefault();
+  alert(item + " link is a placeholder. Add the real URL in index.html.");
+}
